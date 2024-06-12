@@ -1,0 +1,17 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 87vh;
+  background-image: linear-gradient(
+    to left,
+    #ebfef5,
+    #cffce4,
+    #a3f7ce,
+    #3cdd9f
+  );
+}
+.not-found-img {
+  width: 400px;
+}

@@ -1,0 +1,16 @@
+.product-sections {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  max-width: 1110px;
+}
+.product-bg-container {
+  background-image: linear-gradient(
+    to left,
+    #ebfef5,
+    #cffce4,
+    #a3f7ce,
+    #3cdd9f
+  );
+}
