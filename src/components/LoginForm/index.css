@@ -93,9 +93,7 @@
 }
 
 .form-container:hover {
-  box-shadow:
-    0px 4px 16px 0px #009d69,
-    0px 0px 4px 0px #009d69 inset;
+  box-shadow: 0px 4px 16px 0px #009d69, 0px 0px 4px 0px #009d69 inset;
   transition-duration: 0.6s;
 }
 
