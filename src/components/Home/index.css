@@ -1,7 +1,26 @@
+.home-heading:hover {
+  color: #009d69;
+  text-shadow:
+    0 0 10px #ebfef5,
+    0 0 20px #ebfef5,
+    0 0 40px #ebfef5,
+    0 0 80px #ebfef5,
+    0 0 120px #ebfef5,
+    0 0 160px #ebfef5;
+  transition-duration: 0.6s;
+  letter-spacing: 1px;
+}
+
 #shopnowBtn:hover {
   background-color: #ebfef5;
   border: 1px solid #009d69;
   color: #009d69;
+  box-shadow:
+    0 0 5px #012d22,
+    0 0 25px #012d22,
+    0 0 5px #012d22,
+    0 0 200px #012d22;
+  transition-duration: 0.6s;
 }
 
 .home-bg-container {
@@ -116,6 +135,7 @@
   margin-top: 20px;
   outline: none;
   cursor: pointer;
+  padding-inline: 16px;
 }
 
 @media screen and (min-width: 768px) {

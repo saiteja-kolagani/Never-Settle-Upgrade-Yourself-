@@ -1,3 +1,13 @@
+.username-input-field:hover {
+  border-radius: 20px;
+  transition: all 0.6s ease-in-out;
+}
+
+.password-input-field:hover {
+  border-radius: 20px;
+  transition: all 0.6s ease-in-out;
+}
+
 .login-page-bg-container {
   background-image: linear-gradient(
     to left,
@@ -70,6 +80,7 @@
   width: 100%;
   max-width: 350px;
   background-image: radial-gradient(#ebfef5, #68edb5);
+  box-shadow: 0px 4px 16px 0px #009d69;
 }
 
 @media screen and (min-width: 992px) {
@@ -79,6 +90,13 @@
     box-shadow: 0px 4px 16px 0px #009d69;
     padding: 64px 48px 64px 48px;
   }
+}
+
+.form-container:hover {
+  box-shadow:
+    0px 4px 16px 0px #009d69,
+    0px 0px 4px 0px #009d69 inset;
+  transition-duration: 0.6s;
 }
 
 .input-container {
@@ -150,4 +168,8 @@
   background-color: #ebfef5;
   border: 1px solid #009d69;
   color: #009d69;
+  box-shadow: 10px 10px 10px 4px #009d69;
+  top: -5px;
+  left: -5px;
+  transition-duration: 0.6s;
 }
